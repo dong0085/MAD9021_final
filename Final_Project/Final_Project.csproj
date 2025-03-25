@@ -44,8 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GuessTheNumberGame.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomInteger.cs" />
+    <Compile Include="RangedRandomInteger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

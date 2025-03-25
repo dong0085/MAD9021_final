@@ -10,6 +10,8 @@ namespace Final_Project
     {
         static void Main(string[] args)
         {
+            GuessTheNumberGame newGame = new GuessTheNumberGame();
+            newGame.start();
         }
     }
 }

@@ -51,7 +51,7 @@ namespace Final_Project
 
         public override int GenerateRandomNumber()
         {
-            int randomNum = random.Next(minimum, maximum);
+            int randomNum = random.Next(minimum, maximum + 1);
             return randomNum;
         }
 
